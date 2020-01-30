@@ -1,0 +1,208 @@
+body{
+    background-color: white;
+}
+.responsive {
+    margin-top: 5px;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    visibility: hidden;
+  }
+
+  .b-responsive {
+    margin-top: 65px;
+    width: 40%;
+    height: 400px;
+    position: relative;
+  }
+
+
+  .right-responsive {
+    /* margin-top: 5px; */
+    width: 50%;
+    height: 600px;
+    position: relative;
+    float: right;
+    
+  }
+  .container {
+    margin-top: 2px;
+    position: relative;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    /* text-shadow: 2px 1px #ffffff; */
+    margin-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+  }
+  
+  .centered {
+    position: relative;
+    margin-top: -250px;
+    margin-left: 20px;
+ 
+    
+  }
+  .service{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 2px 2px #ffffff;
+    width: 100%;
+  }
+  .serv{
+    background-image: url('https://i.pinimg.com/736x/f4/ac/6a/f4ac6aac3afb587f6cae04155656fca3.jpg');
+    height: 250px;
+  }
+
+  .arrow {
+      position: absolute;
+      z-index: 10;
+      top:130px
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #test:hover{
+    background-color: rgb(162, 250, 196);
+    /* color: #ffffff; */
+  }
+  .b-responsive {
+    margin-top: 65px;
+    margin-left: 65px;
+    width: 40%;
+    height: 400px;
+    position: relative;
+  }
+
+  .challenge{
+    font-size: 49px;
+    text-align: left;
+    margin-right:155px;
+    margin-left: 780px;
+    margin-top: -320px;
+  }
+  .chall-contact{
+    position: absolute;
+    width: 80px;
+    margin-top: -180px !important;
+    margin-left: 780px !important;
+  }
+
+/* mobile from here */
+
+  @media only screen and (max-width: 600px) {
+    .responsive {
+      display: none;
+    }
+    .b-responsive {
+      margin-top: 65px;
+      width: 35%;
+      height: 150px;
+      margin-left: 0;
+      position: relative;
+    }
+    .challenge{
+      font-size: 19px;
+      text-align: left;
+      color: black;
+
+      /* margin-right:155px; */
+      margin-left: 150px;
+      margin-top: -150px;
+      position: absolute;
+      width: 200px;
+      /* margin-top: 400px; */
+    }
+    .right-responsive{
+      min-width: 450px;
+      position: relative;
+     margin-left: -30px;
+     height: 250px;
+
+    }
+    .centered {
+      position: absolute;
+      text-align: left;
+      font-size: 24px;
+      min-width: 100%;
+      margin-top: 300px;
+      margin-left: 10px;
+      
+    }
+    .container{
+      height: 450px;
+    }
+    .arrow {
+      display: none;
+    }
+    #pakage{
+      margin-top: 10px;
+    }
+    #second{
+      margin-top: 80px;
+    }
+    .serv{
+      margin-bottom: 60px;
+      height: 655px;
+    }
+    .chall-contact{
+      position: absolute;
+      width: 80px !important;
+      margin-top: -50px !important;
+      margin-left: 25px !important;
+    }
+  } 
+ 
+
+  /* tablet from here */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .right-responsive {
+      /* margin-top: 5px; */
+      width: 50%;
+      height: 400px;
+      position: relative;
+      float: right;
+      
+    }
+    .centered {
+      position: relative;
+      margin-top: -350px;
+     padding-left: 20px;
+     font-size: 40px;
+   
+      
+    }
+    .container{
+      height: 400px;
+    }
+    #second{
+      margin-top: 0;
+    }
+    #second{
+      margin-top: 80px;
+    }
+    .serv{
+      margin-bottom: 60px;
+      height: 455px;
+    }
+ 
+    
+  }
+  
+  
